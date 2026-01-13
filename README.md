@@ -29,36 +29,13 @@ Two ways to use:
 
 ## Example
 
-**Logseq page:**
-```
-- # My Blog Post
-- This is the introduction with a [[Reference Page]] link.
-  - Some nested point
-  - Another nested point
-- Here's some code:
-  ```javascript
-  console.log("hello");
-  ```
-- Final thoughts with #blog tag
-```
+### Standard Export of Logseq
 
-**Clean markdown output:**
-```
-# My Blog Post
+![](assets/builtin-export.gif)
 
-This is the introduction with a Reference Page link.
+### Clean Markdown export through Plugin
 
-- Some nested point
-- Another nested point
-
-Here's some code:
-
-```javascript
-console.log("hello");
-```
-
-Final thoughts
-```
+![](assets/rip-bullet.gif)
 
 ## Development
 
