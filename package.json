@@ -1,0 +1,28 @@
+{
+  "name": "logseq-rip-bullet-points",
+  "version": "1.0.0",
+  "description": "Convert Logseq pages to clean markdown by removing bullet points",
+  "main": "dist/index.html",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build"
+  },
+  "keywords": [
+    "logseq",
+    "plugin",
+    "markdown",
+    "export"
+  ],
+  "author": "",
+  "license": "MIT",
+  "logseq": {
+    "id": "logseq-rip-bullet-points",
+    "title": "Rip Bullet Points",
+    "icon": "./icon.svg"
+  },
+  "devDependencies": {
+    "@logseq/libs": "^0.0.17",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  }
+}
