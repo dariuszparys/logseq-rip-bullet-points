@@ -5,6 +5,9 @@ on:
     tags:
       - "v*"
 
+permissions:
+  contents: write
+
 env:
   PLUGIN_NAME: logseq-rip-bullet-points
 
